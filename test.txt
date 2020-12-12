@@ -1,0 +1,15 @@
+uzeinu i githuba ar i laba susikuriu nauja repo
+arba seku instrukcijas arba:
+git init -> sukuria nauja repo(kodo sekikli) localiai
+pridedu faila
+git add failapavadinimas -> prideda faila i sekimo lista()
+git commit -m "zinute" i ta faila kuri suadinom
+git branch -M main -> susetina brancha lokaliai
+git remote add origin https://github.com/Lukas-Zizas/MyPythonMarathon.git sulinkina nuotolini
+repo lokaliai
+git push origin master -> supushina viska i iseore (kitaiptariant i https://github.com/Lukas-Zizas/MyPythonMarathon.git)
+git branch -> isprintina branchus, zvagzdute yra working branchas
+git branch naujas_branchas -> sukuria nauja brancha
+git merge branchas1 branchas2 sumergina branachus
+git push --set-upstream origin new_branch -> prideda nutolulioj repo brancha
+git checkout pereina i kita brancha iseidamas is esamo brancho
